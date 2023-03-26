@@ -1,0 +1,68 @@
+.btn-comecar {
+    padding: 21px 109px;
+    width: 315px;
+    height: 62px;
+    left: 30px;
+    top: 707px;
+    background: #c67c4e;
+    opacity: 0.6;
+    border-radius: 16px;
+
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.btn-comecar:hover{
+    opacity: 1;
+}
+
+.home {
+    background-image: url("src\assets\cafe-home.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+
+}
+
+/* Coffee so good, your taste buds will love it. */
+
+.phrase {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 154%;
+    /* or 22px */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #A9A9A9;
+}
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}

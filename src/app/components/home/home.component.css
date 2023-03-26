@@ -1,0 +1,147 @@
+.card-p {
+  margin-top: 3rem;
+  width: 100%;
+  height: 8rem;
+  background: #EAE7E7;
+  border-radius: 16px;
+  background-image: url("src\assets\promo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.retangle-1 {
+  position: absolute;
+  width: 14rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 3.4rem;
+  background: #1C1C1C;
+}
+
+.retangle-2 {
+  position: absolute;
+  width: 12.7rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 5.8rem;
+
+  background: #1C1C1C;
+}
+
+.card-promo {
+  position: absolute;
+  width: 80%;
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #FFFFFF;
+}
+
+.black {
+  width: 100%;
+  height: 35vh;
+  background: linear-gradient(240.86deg, #131313 0%, #313131 100%);
+}
+
+.danger {
+  padding: 0.2rem 0.5rem;
+  margin-left: 2rem;
+  margin-top: 0.6rem;
+
+  position: absolute;
+
+
+  background: #ED5151;
+  border-radius: 6px;
+
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+}
+
+
+
+.horizontal .inner {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 0 10px 0;
+  background: linear-gradient(#131313 0%, #313131 35%, white 34%, white 100%);
+}
+
+
+.btn {
+  width: 95%;
+  background-color: white;
+  border-radius: 12px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #2F4B4E;
+}
+
+
+.active {
+  background-color: var(--primary);
+  font-family: "sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+}
+
+.card{
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.card-text {
+width: 91px;
+height: 20px;
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+
+color: #2F2D2C;
+}
+
+.card-subtitle {
+  margin-top: -1rem;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #9B9B9B;
+}
+
+.card-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.price{
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+color: #2F4B4E;
+}
